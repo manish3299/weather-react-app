@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function FormData(props){
 
     return(
@@ -17,6 +18,7 @@ function FormData(props){
                 </div>
 
                 <div className="col-md-4 mb-2">
+                
                     <button className="btn btn-warning">GET WEATHER</button>
                 </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../node_modules/weather-icons/css/weather-icons.min.css'
+
 import FORM from './components/form'
 import Weather from './components/weather'
 
@@ -25,15 +25,6 @@ class App extends React.Component{
       error:false
     };
 
-    this.weatherIcon={
-      Thunderstorm:"wi-thunderstorm",
-      Drizzle:"wi-sleet",
-      Rain:"wi-showers",
-      Snow:"wi-snow",
-      Atmosphere:"wi-fog",
-      Clear:"wi-day-sunny",
-      Clouds:"wi-day-fog"
-    }
   }
 
   calCelsius(temp){
